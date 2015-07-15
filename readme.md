@@ -1,5 +1,7 @@
 proof of concept profiler visualization for zerobrane
 
+![ScreenShot](https://dl.dropboxusercontent.com/u/244444/ShareX/2015-07/2015-07-15_12-04-53.png)
+
 #install:
 1. luajit-msgpack-pure.lua > ZeroBraneStudio/lualibs/luajit-msgpack-pure.lua
 2. zb_profile_plugin.lua > ZeroBraneStudio/packages/zb_profile_plugin.lua
@@ -37,5 +39,3 @@ end
 	5. compile luajit 2.1
 		6. luajit/src/lua51.dll > ZeroBraneStudio/bin/lua51.dll
 		7. luajit/src/jit/* >  ZeroBraneStudio/lualibs/jit/*
-		
-![ScreenShot](https://dl.dropboxusercontent.com/u/244444/ShareX/2015-07/2015-07-15_12-04-53.png)
