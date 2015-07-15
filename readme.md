@@ -39,3 +39,8 @@ end
 5. compile luajit 2.1
 6. luajit/src/lua51.dll > ZeroBraneStudio/bin/lua51.dll
 7. luajit/src/jit/* >  ZeroBraneStudio/lualibs/jit/*
+
+#issues and todo
+- It's kinda clumsy to install but it's a proof of concept. 
+- I use markers to add the red lines which is a very ugly way to do it (but I can't find any other way to do it). Scintillia is limited to around 20 markers too.
+- maybe add more annottion info and or tooltips to view the assembly of the compiled code
