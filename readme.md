@@ -33,9 +33,9 @@ end
 ```
 	
 #install for use with zerobrane:
-	1. luajit-msgpack-pure.lua > ZeroBraneStudio/lualibs/luajit-msgpack-pure.lua
-	2. zbprofiler.lua > ZeroBraneStudio/lualibs/zbprofiler.lua
-	4. zb_profile_test_plugin.lua > ZeroBraneStudio/packages/zb_profile_test_plugin.lua
-	5. compile luajit 2.1
-		6. luajit/src/lua51.dll > ZeroBraneStudio/bin/lua51.dll
-		7. luajit/src/jit/* >  ZeroBraneStudio/lualibs/jit/*
+1. luajit-msgpack-pure.lua > ZeroBraneStudio/lualibs/luajit-msgpack-pure.lua
+2. zbprofiler.lua > ZeroBraneStudio/lualibs/zbprofiler.lua
+4. zb_profile_test_plugin.lua > ZeroBraneStudio/packages/zb_profile_test_plugin.lua
+5. compile luajit 2.1
+6. luajit/src/lua51.dll > ZeroBraneStudio/bin/lua51.dll
+7. luajit/src/jit/* >  ZeroBraneStudio/lualibs/jit/*
