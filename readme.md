@@ -41,6 +41,7 @@ end
 7. luajit/src/jit/* >  ZeroBraneStudio/lualibs/jit/*
 
 #issues and todo
-- It's kinda clumsy to install but it's a proof of concept. 
+- It's kinda clumsy to install. 
 - I use markers to add the red lines which is a very ugly way to do it (but I can't find any other way to do it). Scintillia is limited to around 20 markers too.
 - maybe add more annottion info and or tooltips to view the assembly of the compiled code
+- show percent in the margin somehow
