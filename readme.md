@@ -3,6 +3,7 @@ This will highlight areas of your code where the CPU has spent most of its time 
 ![ScreenShot](https://dl.dropboxusercontent.com/u/244444/ShareX/2015-07/2015-07-15_12-25-07.png)
 
 #install:
+1. download the latest version of zerobrane https://github.com/pkulchenko/ZeroBraneStudio/archive/master.zip
 1. luajit-msgpack-pure.lua > ZeroBraneStudio/lualibs/luajit-msgpack-pure.lua
 2. zb_profile_plugin.lua > ZeroBraneStudio/packages/zb_profile_plugin.lua
 			
@@ -12,7 +13,8 @@ note: löve/love.exe should exist
 1. luajit-msgpack-pure.lua > löve/luajit-msgpack-pure.lua
 2. zbprofiler.lua > löve/zbprofiler.lua
 3. place your löve project in löve/mygame/
-4. modify your löve project:	
+4. modify your löve project:
+
 ```
 local profiler = require("zbprofiler")
 
@@ -24,6 +26,7 @@ function love.update()
 	profiler.save(3)
 end
 ```
+
 5. in zerobrane set your project directory to löve/ 
 6. modify zb_profile_plugin.lua
 ```
