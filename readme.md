@@ -1,6 +1,6 @@
-proof of concept profiler visualization for zerobrane
+This will highlight areas of your code where the CPU has spent most of its time in varying amounts of red and annotate why certain areas of the code could not be jit compiled after the profiler has been run for a little while. Restart zerobrane to refresh the results.
 
-![ScreenShot](https://dl.dropboxusercontent.com/u/244444/ShareX/2015-07/2015-07-15_12-04-53.png)
+![ScreenShot](https://dl.dropboxusercontent.com/u/244444/ShareX/2015-07/2015-07-15_12-25-07.png)
 
 #install:
 1. luajit-msgpack-pure.lua > ZeroBraneStudio/lualibs/luajit-msgpack-pure.lua
