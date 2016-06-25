@@ -1,6 +1,6 @@
 This will highlight areas of your code where the CPU has spent most of its time in varying amounts of red and annotate why certain areas of the code could not be jit compiled after the profiler has been run for a little while. Restart zerobrane to refresh the results.
 
-![ScreenShot](https://dl.dropboxusercontent.com/u/244444/ShareX/2015-07/2015-07-15_12-25-07.png)
+![ScreenShot](https://drive.google.com/uc?export=download&id=0B4QDw71zow0ZWm5sbHJPMUFybkE)
 
 #install:
 1. download the latest version of zerobrane https://github.com/pkulchenko/ZeroBraneStudio/archive/master.zip
